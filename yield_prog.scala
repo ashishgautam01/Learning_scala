@@ -1,11 +1,15 @@
 
 
 object yield_prog extends App{
-  var num = scala.io.StdIn.readInt()
-  var i = 0 
-  var x = (1,2,3,4)
-  var r = for(i <- x if i > 2) yield i 
-    i + 1
-  
-  println(r)
+
+        val a = Array( 8, 3, 1, 6, 4, 5) 
+          
+        
+        var print=for (e <- a if e > 4) yield e 
+        for(i<-print) 
+        {  
+            // Printing result 
+            println(i)  
+        }  
+    
 }
