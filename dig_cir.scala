@@ -3,6 +3,7 @@
 object dig_cir extends Wire{
   def main(args: Array[String]){
   var p, q, r, sum, carry, cin, sumf, cout = new Wire
+  
   println("We Have 3 wires for now: \n")
   r.setSignal(true)
   p.setSignal(false)
