@@ -36,6 +36,8 @@ object Tester {
 		val tuple = new Tuple4(1,2,"Hello", true)
 		println(tuple._2)
 		
+		//var a = x  => x + 2 !== 0;
+		
 	}
 	
 	def maths(x: Int, f: (Int,Int) => Int): Int ={
