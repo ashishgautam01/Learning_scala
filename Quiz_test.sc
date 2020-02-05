@@ -1,5 +1,10 @@
+import scala.concurrent.ExecutionContext.Implicits.global
+
+
 object Quiz_test {
-	
+
+  Future {"Hello"}
+/*
 	trait greet{ def say(); 	def stop() = println("Stop");	}
 		
 	class gr extends greet{
@@ -15,4 +20,5 @@ object Quiz_test {
 	
 	var addvar = add(1)(_)
 	println(addvar(2))
+	*/
 }
