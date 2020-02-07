@@ -1,3 +1,5 @@
+import scala.collection.mutable.Map
+
 object seiveof_eristosthenes {
    //seive of eratosthenes
     var prime = seive(from(2))

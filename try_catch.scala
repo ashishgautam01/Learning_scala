@@ -8,6 +8,7 @@ object try_catch extends App{
   println(li :: List(2))
   x.foreach(x => x+2)
   
+  
   abstract class Try[T]{}
     case class Success[T](x: T) extends Try[T]
     case class failure(ex: Exception) extends Try[Nothing]
