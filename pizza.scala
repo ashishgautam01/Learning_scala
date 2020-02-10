@@ -1,5 +1,4 @@
-
-  import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ArrayBuffer
 
 sealed trait Topping
 case object Cheese extends Topping
